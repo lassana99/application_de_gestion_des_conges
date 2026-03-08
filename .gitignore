@@ -1,0 +1,26 @@
+# Sécurité : Mots de passe et accès BDD
+.env
+config.php
+db.php
+database.php
+connection.php
+connect.php
+
+# Dépendances (trop lourdes pour GitHub)
+/vendor/
+/node_modules/
+
+# Logs et fichiers temporaires
+/storage/logs/
+*.log
+/tmp/
+.cache/
+
+# Fichiers système et IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Sauvegardes de base de données
+*.sql
